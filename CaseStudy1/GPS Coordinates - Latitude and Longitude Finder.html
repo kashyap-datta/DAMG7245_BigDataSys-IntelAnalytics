@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://gps-coordinates.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>GPS Coordinates - Latitude and Longitude Finder</title>
+<meta name="description" content="GPS Coordinates finder is a tool used to find the latitude and longitude of your current location including your address, zip code, state, city and latlong. The latitude and longitude finder to convert gps location to address or search for your address and latitude and longitude on the map coordinates.">
+<meta name="keywords" content="GPS Coordinates, Latitude and Longitude, GPS Coordinates Finder">  
+
+<link rel="shortcut icon" href="https://gps-coordinates.org/images/favicon.ico">
+<script async="" src="./GPS Coordinates - Latitude and Longitude Finder_files/analytics.js.download"></script><script src="./GPS Coordinates - Latitude and Longitude Finder_files/function.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./GPS Coordinates - Latitude and Longitude Finder_files/style.css">
+<style>.mk-map-view{width:100%;height:100%;overflow:hidden;-webkit-tap-highlight-color:transparent}.mk-map-view.mk-dragging-annotation{cursor:none}.mk-map-view img{padding:0}.mk-map-view.mk-dragging-annotation .mk-legal,.mk-map-view.mk-dragging-annotation .mk-map-type,.mk-map-view.mk-dragging-annotation .mk-user-location-control,.mk-map-view.mk-dragging-annotation .mk-zoom-in,.mk-map-view.mk-dragging-annotation .mk-zoom-out{cursor:none}.mk-annotation-container,.mk-map-view{z-index:0}.mk-map-view>*{position:absolute;-webkit-user-select:none;-moz-user-select:none}.mk-map-node-element{background-color:rgba(0,0,0,0)}.mk-map-view .rt-root{left:0;letter-spacing:.3px}.mk-map-view .mk-annotation-container,.mk-map-view .mk-controls-container{-ms-user-select:text}.mk-map-view .mk-annotation-container.mk-dragging ::selection,.mk-map-view .mk-annotation-container>div:first-child ::selection,.mk-map-view .mk-controls-container ::selection,.mk-map-view.mk-panning ::selection{background:0 0}.mk-map-view.mk-dragging-cursor{cursor:pointer;cursor:-moz-grabbing;cursor:-webkit-grabbing;cursor:grabbing}.mk-map-view>iframe{width:100%;height:100%;pointer-events:none;opacity:0;border:0}.mk-map-view>.mk-grid{width:100%;height:100%}.mk-map-view .mk-tile-grid{position:absolute;pointer-events:none;background-repeat:no-repeat}.mk-invisible{opacity:0;pointer-events:none}.mk-hidden{display:none}.mk-annotation-container>div,.mk-annotation-container>div>*{position:absolute;top:0;left:0}.mk-annotation-container .mk-selected{z-index:1}.mk-annotation-container .mk-lifted{z-index:2}.mk-callout{position:absolute;top:0;left:0;pointer-events:auto;-webkit-user-select:auto;-moz-user-select:text;-ms-user-select:text}.mk-dark-mode .mk-callout{color:#fff}.mk-callout>*{position:absolute;top:0;left:0}svg.mk-bubble{display:block;width:100%;height:100%}div.mk-callout-accessory{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);overflow:hidden}div.mk-callout-accessory-content{white-space:nowrap;position:relative;text-align:center;font-size:12px}div.mk-callout-accessory:first-child{left:0}div.mk-callout-accessory:last-child{right:0}div.mk-callout-accessory:first-child .mk-callout-accessory-content{padding-right:8px}div.mk-callout-accessory:last-child .mk-callout-accessory-content{padding-left:8px}div.mk-callout-accessory:first-child+.mk-callout-content{padding-left:8px}div.mk-standard .mk-callout-content:nth-last-child(2){padding-right:8px}div.mk-standard{font-family:"-apple-system",BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;box-sizing:border-box;position:relative}div.mk-custom-content,div.mk-standard{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}div.mk-standard .mk-callout-content>div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}div.mk-standard .mk-callout-content{padding:0 4px}div.mk-standard .mk-title{font-size:17px;font-weight:500;color:#000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.025em}.mk-dark-mode div.mk-standard .mk-title{color:#fff}div.mk-standard.mk-no-subtitle.mk-no-accessories .mk-title{text-align:center}div.mk-standard .mk-subtitle{font-size:13px;color:rgba(0,0,0,.7);letter-spacing:.025em}.mk-dark-mode div.mk-standard .mk-subtitle{color:rgba(255,255,255,.7)}svg.mk-bubble path{fill:#fff;stroke:rgba(0,0,0,.2)}.mk-dark-mode svg.mk-bubble path{fill:#3e3e3e;stroke:rgba(0,0,0,.5)}.mk-top-left-controls-container,.mk-top-right-controls-container{position:absolute;top:12px;left:12px}.mk-top-right-controls-container{left:auto;right:12px}.mk-bottom-right-controls-container .mk-control:last-child.mk-user-location-control{right:0}.mk-control.mk-pressed{background:#ededed}.mk-dark-mode .mk-control.mk-pressed{background:#979797}.mk-scale{vertical-align:top}.mk-user-location-control{position:absolute;right:60px;bottom:0;cursor:pointer;position:relative;width:23px;height:23px;background-color:#fff;box-shadow:0 0 0 1px #bfbfbf;border-radius:4px;pointer-events:auto;margin:0;-webkit-transition:background-color .2s ease;-ms-transition:background-color .2s ease;transition:background-color .2s ease}.mk-dark-mode .mk-user-location-control{background-color:#747474;border-color:rgba(0,0,0,.13);box-shadow:0 .5px .5px 0 rgba(0,0,0,.15)}.mk-user-location-control .mk-icon{pointer-events:none;position:absolute;top:0;left:0;width:14px;height:14px;margin:5px 5px 4px 4px}.mk-user-location-control .mk-icon-waiting{opacity:0;top:-1px;left:1px}.mk-user-location-control.mk-tracking{box-shadow:0 0 0 1px rgba(255,255,255,.7);background-color:#007aff}.mk-dark-mode .mk-user-location-control.mk-tracking{background-color:#747474}.mk-user-location-control.mk-tracking .mk-icon{fill:#fff}.mk-user-location-control.mk-focus{box-shadow:0 0 0 3px rgba(0,122,255,.2),0 0 0 1px #007aff}.mk-user-location-control.mk-pressed.mk-focus{background-color:#e0ecfa}.mk-user-location-control.mk-tracking.mk-focus{background-color:#007aff;box-shadow:0 0 0 3px rgba(0,122,255,.2)}.mk-dark-mode .mk-user-location-control.mk-tracking.mk-focus{background-color:#747474}.mk-user-location-control.mk-focus:not(.mk-tracking) .mk-icon{fill:#007aff;fill-rule:nonzero}.mk-dark-mode .mk-user-location-control.mk-focus:not(.mk-tracking) .mk-icon{fill:rgba(255,255,255,.85)}.mk-error-message{font-family:"-apple-system-font","Helvetica Neue",Helvetica,Arial,sans-serif;position:absolute;background-color:rgba(250,250,250,.95);color:#333;font-size:13px;bottom:0;box-shadow:0 0 0 1px #bfbfbf;opacity:0;border-radius:5px;padding:7px;max-width:250px;pointer-events:auto;-webkit-transform-origin:100% 50% 0;transform-origin:100% 50% 0}.mk-dark-mode .mk-error-message{background-color:#3e3e3e;color:rgba(255,255,255,.85);box-shadow:none;border:1px solid rgba(255,255,255,.2)}.mk-dark-mode .mk-error-message>.mk-error-support:visited{color:#00e}.mk-error-support{white-space:nowrap}.mk-error-message-pop{-webkit-animation-name:mk-pop;animation-name:mk-pop;-webkit-animation-duration:.7s;animation-duration:.7s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes mk-pop{0%{-webkit-transform:translate3d(0,0,0) scale3d(.01,.05,1);opacity:0}50%{opacity:0}70%{-webkit-transform:scale3d(1.1,1.1,1)}85%{-webkit-transform:scale3d(.95,.95,1)}100%{-webkit-transform:translate3d(0,0,0) scale3d(1,1,1);opacity:1}}@keyframes mk-pop{0%{transform:translate3d(0,0,0) scale3d(.01,.05,1);opacity:0}50%{opacity:0}70%{transform:scale3d(1.1,1.1,1)}85%{transform:scale3d(.95,.95,1)}100%{transform:translate3d(0,0,0) scale3d(1,1,1);opacity:1}}.mk-controls-container{position:absolute;overflow:hidden;top:0;bottom:0;left:0;right:0;z-index:3;pointer-events:none}.mk-controls-container :focus{outline:0}.mk-logo-control{position:absolute;bottom:0;left:0}.mk-logo-control .mk-logo{vertical-align:bottom;width:40px;height:46px;margin:0}.mk-logo-control .mk-logo.mk-logo-autonavi{width:68px;height:45px}.mk-bottom-right-controls-container{position:absolute;bottom:12px;right:12px}.mk-bottom-right-controls-container .mk-control:last-child.mk-rotation-control{bottom:-2px}.mk-legal-controls{position:absolute;bottom:5px;left:28px;pointer-events:auto}.mk-legal-controls.mk-legal-controls-autonavi{left:60px}.mk-legal-controls .mk-pressed{background:rgba(0,0,0,.07)}.mk-legal-controls .mk-legal{color:rgba(0,0,0,.7);font:9px "-apple-system-font","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;text-decoration:underline;text-shadow:0 0 1px rgba(255,255,255,.85);pointer-events:auto;white-space:nowrap;cursor:pointer;padding:4px 5px 6px 5px}.mk-dark-mode .mk-legal-controls .mk-legal,.mk-legal-controls .mk-legal.mk-legal-satellite{color:rgba(255,255,255,.9);text-shadow:0 0 1px rgba(0,0,0,.5),0 0 10px rgba(0,0,0,1)}.mk-legal-controls.mk-focus{background-color:#e2eef9;border-radius:2px;box-shadow:0 0 0 1px #007aff}.mk-dark-mode .mk-legal-controls.mk-focus{background-color:initial}.mk-legal-controls.mk-focus .mk-legal{color:#157efb;text-shadow:none}.mk-dark-mode .mk-legal-controls.mk-focus .mk-legal{color:rgba(255,255,255,.9)}.mk-legal-info{z-index:1;box-sizing:border-box;position:absolute;bottom:-6px;left:4px;padding:0 0 1px 1px;-webkit-transform:translate3d(0,100%,0) translateY(2px);-ms-transform:translateY(100%) translateY(2px);transform:translate3d(0,100%,0) translateY(2px);-webkit-transition:-webkit-transform .3s;-ms-transition:-ms-transform .3s;transition:transform .3s}.mk-legal-info.mk-open{-webkit-transform:translate3d(0,0,0);-ms-transform:translateY(0);transform:translate3d(0,0,0)}.mk-legal-info .mk-legal-info-container{background:#fff;border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);border-right:1px solid rgba(0,0,0,.2)}.mk-dark-mode .mk-legal-info .mk-legal-info-container{background:#3e3e3e}.mk-legal-info .mk-legal-info-container>header{height:27px;background:rgba(0,0,0,.04)}.mk-dark-mode .mk-legal-info .mk-legal-info-container>header{background:rgba(255,255,255,.05)}.mk-legal-info header{position:relative}.mk-legal-info .mk-close{position:relative;cursor:pointer;pointer-events:auto;width:27px;height:27px}.mk-legal-controls .mk-close svg{position:absolute;pointer-events:none;height:11px;width:11px;top:8px;left:8px}.mk-legal-controls.mk-focus .mk-legal-info .mk-close:focus svg{border:1px solid #007aff;border-radius:2px;padding:3px;top:4px;left:4px;fill:#007aff}.mk-legal-controls.mk-focus .mk-legal-info .mk-pressed:focus{background:0 0}.mk-legal-controls.mk-focus .mk-legal-info .mk-close.mk-pressed:focus svg,.mk-legal-controls.mk-focus .mk-legal-info .mk-legal-info-item.mk-pressed:focus{background:rgba(0,122,255,.1)}.mk-legal-info .mk-legal-info-item{display:block;cursor:pointer;text-decoration:none;text-align:left;font:13px/16px "-apple-system-font",HelveticaNeue-Medium,Helvetica,Arial,sans-serif;color:#212121;padding:6px 10px;pointer-events:auto;white-space:nowrap}.mk-dark-mode .mk-legal-info .mk-legal-info-item{color:#fff}.mk-legal-controls.mk-focus .mk-legal-info .mk-legal-info-item:focus{color:#007aff;box-shadow:0 0 0 3px rgba(0,122,255,.2),0 0 0 1px #007aff}.mk-legal-controls.mk-focus .mk-legal-info .mk-legal-info-item.mk-tinted:focus{color:#007aff!important}.mk-dark-mode .mk-legal-controls.mk-focus .mk-legal-info .mk-legal-info-item:focus{color:#fff}.mk-legal-info .mk-legal-attribution-item{color:#b2b2b2;font:13px/1.2em "-apple-system-font","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;letter-spacing:.5px}.mk-dark-mode .mk-legal-info .mk-legal-attribution-item{color:rgba(255,255,255,.3)}.mk-legal-info .mk-legal-attribution-item img{border:none;max-width:none}.mk-legal-info .mk-legal-info-item .mk-attribution-logo{margin-bottom:-7px;pointer-events:none}.mk-legal-info .mk-legal-info-item .mk-right-caret{pointer-events:none;display:inline-block;position:relative;width:7px;height:9px}.mk-legal-info .mk-legal-info-item .mk-right-caret svg{position:absolute;width:7px;height:9px;top:1px;fill:none;stroke-width:1.5;stroke:#8e8e8e}.mk-legal-controls.mk-focus .mk-legal-info .mk-legal-info-item:focus svg{stroke:#007aff}.mk-legal-info .mk-legal-info-container .mk-divider{height:1px;background-color:rgba(0,0,0,.2)}.mk-dark-mode .mk-legal-info .mk-legal-info-container .mk-divider{background-color:rgba(255,255,255,.15)}.mk-legal-info[aria-hidden=true]{visibility:hidden}.mk-zoom-controls{position:absolute;right:0;bottom:0;width:51px;height:23px;background:#fff;box-shadow:0 0 0 1px #bfbfbf;border-radius:4px;pointer-events:auto}.mk-dark-mode .mk-zoom-controls{background-color:#747474;border-color:rgba(0,0,0,.13);box-shadow:0 .5px .5px 0 rgba(0,0,0,.15)}.mk-zoom-controls .mk-icon{position:absolute;pointer-events:none;width:13px;height:13px;margin:5px 6px;fill:#333}.mk-dark-mode .mk-icon{fill:rgba(255,255,255,.85)}.mk-zoom-controls .mk-disabled,.mk-zoom-controls.mk-disabled .mk-zoom-in,.mk-zoom-controls.mk-disabled .mk-zoom-out{opacity:.25}.mk-zoom-controls .mk-zoom-in,.mk-zoom-controls .mk-zoom-out{position:absolute;z-index:2;width:25px;height:23px;cursor:pointer;transform:translateZ(0)}.mk-zoom-controls .mk-zoom-in{border-top-right-radius:inherit;border-bottom-right-radius:inherit;right:0}.mk-zoom-controls .mk-zoom-out{border-top-left-radius:inherit;border-bottom-left-radius:inherit}.mk-zoom-controls.mk-focus{background:#fafafa;box-shadow:0 0 0 3px rgba(0,122,255,.2)}.mk-dark-mode .mk-zoom-controls.mk-focus{background:#747474}.mk-zoom-controls.mk-focus .mk-zoom-in:focus,.mk-zoom-controls.mk-focus .mk-zoom-out:focus{box-shadow:0 0 0 1px #007aff}.mk-zoom-controls.mk-focus .mk-zoom-in.mk-pressed:focus,.mk-zoom-controls.mk-focus .mk-zoom-out.mk-pressed:focus{background:rgba(0,122,255,.1)}.mk-zoom-controls.mk-focus .mk-zoom-in:focus .mk-icon,.mk-zoom-controls.mk-focus .mk-zoom-out:focus .mk-icon{fill:#007aff}.mk-dark-mode .mk-zoom-controls.mk-focus .mk-zoom-in:focus .mk-icon,.mk-dark-mode .mk-zoom-controls.mk-focus .mk-zoom-out:focus .mk-icon{fill:rgba(255,255,255,.85)}.mk-zoom-controls .mk-pressed{background:#ededed}.mk-dark-mode .mk-zoom-controls .mk-pressed{background:rgba(255,255,255,.36)}.mk-zoom-controls .mk-divider{position:absolute;left:25px;width:1px;height:23px;border-left:1px solid #bfbfbf;box-sizing:border-box}.mk-dark-mode .mk-zoom-controls .mk-divider{border-color:rgba(0,0,0,.2)}.mk-map-type-control{display:inline-block;vertical-align:top;height:23px;margin-left:7px;overflow:hidden;background:#fff;box-shadow:0 0 0 1px #bfbfbf;border-radius:4px;pointer-events:auto;-webkit-transition:height .3s,margin-top .3s;-ms-transition:height .3s,margin-top .3s;transition:height .3s,margin-top .3s}.mk-dark-mode .mk-map-type-control{background-color:#747474;border:.5px solid rgba(0,0,0,.13);box-shadow:0 .5px .5px 0 rgba(0,0,0,.15)}.mk-map-type-control .mk-map-type{position:relative;cursor:pointer;font:13px/23px "-apple-system-font",HelveticaNeue-Medium,Helvetica,Arial,sans-serif;color:#424242;letter-spacing:.1px;text-align:left;padding:0 24px 0 6px;margin-top:-24px;border-bottom:1px solid #e1e1e1;opacity:0}.mk-dark-mode .mk-map-type-control .mk-map-type{color:rgba(255,255,255,.85);border-bottom:1px solid rgba(255,255,255,.15)}.mk-map-type-control .mk-map-type.mk-active{margin-top:auto;opacity:1}.mk-map-type-control .mk-map-type.mk-active .mk-icon{pointer-events:none;position:absolute;width:9px;height:6px;right:5px;top:9px;fill:none;stroke-width:1.5;stroke:#7c7c7c}.mk-dark-mode .mk-map-type-control .mk-map-type.mk-active .mk-icon{stroke:rgba(255,255,255,.85)}.mk-map-type-control .mk-map-type.mk-pressed{background:#ededed}.mk-dark-mode .mk-map-type-control .mk-map-type.mk-pressed{background:rgba(255,255,255,.36)}.mk-map-type-control.mk-open.mk-opening{overflow:hidden}.mk-map-type-control.mk-open{height:71px;overflow:visible}.mk-map-type-control.mk-open .mk-map-type{position:relative;opacity:1;margin-top:auto}.mk-map-type-control:not(.mk-open) .mk-map-type.mk-active{border-bottom:none;border-radius:3px}.mk-map-type-control.mk-open .mk-map-type:first-child{border-radius:3px 3px 0 0}.mk-map-type-control.mk-open .mk-map-type:last-child{border:none;border-radius:0 0 3px 3px}.mk-map-type-control.mk-open .mk-map-type.mk-active{margin-top:auto;opacity:1}.mk-map-type-control.mk-open .mk-map-type.mk-active .mk-icon{width:11px;height:9px;right:5px;top:7px;stroke:none;fill:#333}.mk-dark-mode .mk-map-type-control.mk-open .mk-map-type.mk-active .mk-icon{fill:rgba(255,255,255,.85)}.mk-map-type-control.mk-focus.mk-show-focus{background-color:#fff;box-shadow:0 0 0 1px #007aff,0 0 0 3px rgba(0,122,255,.2)}.mk-dark-mode .mk-map-type-control.mk-focus.mk-show-focus{background-color:#747474}.mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active{color:#007aff}.mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active.mk-tinted{color:#007aff!important}.mk-dark-mode .mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active{color:rgba(255,255,255,.85)}.mk-dark-mode .mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active{color:rgba(255,255,255,.85)}.mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-pressed.mk-active{background-color:rgba(0,122,255,.1)}.mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active .mk-icon{stroke:#007aff}.mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active.mk-tinted .mk-icon{stroke:#007aff!important}.mk-dark-mode .mk-map-type-control.mk-focus.mk-show-focus:not(.mk-open) .mk-map-type.mk-active .mk-icon{stroke:rgba(255,255,255,.85)}.mk-map-type-control.mk-open.mk-focus.mk-show-focus{box-shadow:0 0 0 3px rgba(0,122,255,.2)}.mk-map-type-control.mk-open.mk-focus .mk-map-type.mk-active{color:#424242}.mk-dark-mode .mk-map-type-control.mk-open.mk-focus .mk-map-type.mk-active{color:rgba(255,255,255,.85)}.mk-map-type-control.mk-open .mk-map-type.mk-active .mk-icon{stroke:none;fill:#333}.mk-map-type-control.mk-open .mk-map-type.mk-active.mk-tinted .mk-icon{stroke:none!important}.mk-map-type-control.mk-open .mk-map-type.mk-active.mk-focus .mk-icon,.mk-map-type-control.mk-open.mk-show-focus .mk-map-type.mk-active:focus .mk-icon{fill:#007aff}.mk-map-type-control.mk-open .mk-map-type.mk-active.mk-focus.mk-tinted .mk-icon,.mk-map-type-control.mk-open.mk-show-focus .mk-map-type.mk-active.mk-tinted:focus .mk-icon{fill:#007aff!important}.mk-dark-mode .mk-map-type-control.mk-open .mk-map-type.mk-active.mk-focus .mk-icon,.mk-dark-mode .mk-map-type-control.mk-open.mk-show-focus .mk-map-type.mk-active:focus .mk-icon{fill:rgba(255,255,255,.85)}.mk-map-type-control.mk-open.mk-show-focus .mk-map-type:focus{color:#007aff;box-shadow:0 0 0 1px #007aff}.mk-map-type-control.mk-open.mk-show-focus.mk-tinted .mk-map-type:focus{color:#007aff!important}.mk-dark-mode .mk-map-type-control.mk-open.mk-show-focus .mk-map-type:focus{color:rgba(255,255,255,.85)}.mk-map-type-control.mk-open:focus.mk-show-focus .mk-map-type.mk-pressed:focus{background-color:rgba(0,122,255,.1)}.mk-style-helper{opacity:0;pointer-events:none}.mk-rotation-control{width:53px;height:53px;cursor:-webkit-grab;cursor:grab;pointer-events:auto;position:absolute;bottom:33px;right:-1px;border-radius:50px;box-shadow:0 1px 3px rgba(0,0,0,.1);z-index:-1;overflow:hidden;line-height:0;-webkit-transition:opacity .1s cubic-bezier(.19,1,.22,1);transition:opacity .1s cubic-bezier(.19,1,.22,1)}.mk-rotation-control{-webkit-transition:opacity .3s;-ms-transition:opacity .3s;transition:opacity .3s}.mk-dark-mode .mk-rotation-control{background-color:#747474;box-shadow:0 .5px .5px 0 rgba(0,0,0,.15)}.mk-rotation-control>.mk-rotation-wrapper{width:53px;height:53px;position:absolute;will-change:transform}.mk-rotation-control.mk-pressed{cursor:-webkit-grabbing;cursor:grabbing}.mk-rotation-control .mk-compass{width:53px}.mk-rotation-control .mk-compass-border{width:59px;position:absolute;top:-2px;left:-3px}.mk-rotation-control .mk-north-indicator{font:16px/18px "-apple-system-font",HelveticaNeue-Medium,Helvetica,Arial,sans-serif;color:#000;position:absolute;top:24px;left:26.5%;width:25px;overflow:hidden;text-overflow:clip;text-align:center}.mk-dark-mode .mk-rotation-control .mk-compass{width:46.5px;position:absolute;top:3px;left:3px}.mk-dark-mode .mk-rotation-control .mk-north-indicator{color:rgba(255,255,255,.85)}.mk-rotation-control .mk-north-indicator.mk-north-indicator-long{font-size:12px}.mk-rotation-control.mk-focus{box-shadow:0 0 0 1px #007aff,0 0 0 3px rgba(0,122,255,.2)}.mk-rotation-control.mk-focus .mk-north-indicator{color:#007aff}.mk-dark-mode .mk-rotation-control.mk-focus .mk-north-indicator{color:rgba(255,255,255,.85)}.mk-rotation-control .mk-rotation-slider{position:absolute;left:0;width:100%;height:15px;top:-30px}@supports (backdrop-filter:blur(5px)) or (-webkit-backdrop-filter:blur(5px)){.mk-dark-mode .mk-map-type-control,.mk-dark-mode .mk-rotation-control,.mk-dark-mode .mk-user-location-control,.mk-dark-mode .mk-zoom-controls{background-color:rgba(191,191,191,.5);mix-blend-mode:darken;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}.mk-dark-mode .mk-zoom-controls .mk-disabled,.mk-dark-mode .mk-zoom-controls.mk-disabled .mk-zoom-in,.mk-dark-mode .mk-zoom-controls.mk-disabled .mk-zoom-out{opacity:.5}.mk-dark-mode .mk-control.mk-pressed{background:rgba(255,255,255,.36)}.mk-dark-mode .mk-map-type-control.mk-focus.mk-show-focus,.mk-dark-mode .mk-user-location-control.mk-tracking,.mk-dark-mode .mk-zoom-controls.mk-focus{background-color:rgba(255,255,255,.25)}}.mk-rtl *{text-align:right!important;direction:rtl}.mk-rtl .mk-user-location-control{right:auto;left:60px}.mk-rtl .mk-logo-control{right:0}.mk-rtl .mk-top-right-controls-container{left:12px;right:auto}.mk-rtl .mk-top-left-controls-container{left:auto;right:12px}.mk-rtl .mk-map-type-control .mk-map-type{padding:0 6px 0 24px}.mk-rtl .mk-map-type-control .mk-map-type.mk-active .mk-icon{left:5px;right:auto}.mk-rtl .mk-zoom-controls{right:auto;left:0}.mk-rtl .mk-zoom-controls .mk-zoom-out{right:0;left:auto}.mk-rtl .mk-zoom-controls .mk-zoom-in{right:auto;left:0}.mk-rtl .mk-bottom-right-controls-container{left:12px;right:auto}.mk-rtl .mk-bottom-right-controls-container .mk-zoom-controls{margin-left:0;margin-right:9px}.mk-rtl .mk-bottom-right-controls-container .mk-control:last-child.mk-user-location-control{right:auto;left:0}.mk-rtl .mk-map-type-control{margin-right:7px;margin-left:0}.mk-rtl .mk-legal-controls{left:auto;right:35px}.mk-rtl .mk-legal-controls.mk-legal-controls-autonavi{right:60px}.mk-rtl .mk-legal-info{padding:0 1px 1px 0;left:auto;right:4px}.mk-rtl .mk-right-caret{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.mk-rtl>.mk-error-message{-webkit-transform-origin:0 50% 0;transform-origin:0 50% 0}.mk-rtl .mk-rotation-control{right:auto;left:-1px}.mk-rtl .mk-rotation-control .mk-north-indicator{text-align:center!important}div.mk-standard.mk-no-subtitle.mk-no-accessories .mk-rtl .mk-title{text-align:center!important}@-webkit-keyframes mk-fadeout{from{opacity:1}to{opacity:0}}@keyframes mk-fadeout{from{opacity:1}to{opacity:0}}</style><script src="./GPS Coordinates - Latitude and Longitude Finder_files/mk-csr.js.download"></script></head>
+<body data-new-gr-c-s-check-loaded="14.1007.0" data-gr-ext-installed="">
+<table width="1128" align="center" class="tablestyle">
+<tbody><tr>
+	<td width="60"><img src="./GPS Coordinates - Latitude and Longitude Finder_files/logo.gif" alt="gps coordinates"></td>
+	<td><div id="header"><h1>GPS Coordinates</h1></div></td>
+	<td></td>
+</tr>
+</tbody></table>
+
+<table width="1128" align="center" class="menu" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="10"></td>
+<td width="60"><a href="https://gps-coordinates.org/">Home</a></td>
+<td width="10"></td>
+<td width="100"><a href="https://gps-coordinates.org/my-location.php">My Location</a></td>
+<td width="10"></td>
+<td width="170"><a href="https://gps-coordinates.org/coordinate-converter.php">Coordinate Converter</a></td>
+<td width="10"></td>
+<td width="100"><a href="https://gps-coordinates.org/where-am-i.php">Where am I</a></td>
+<td width="10"></td>
+<td width="150"><a href="https://gps-coordinates.org/distance-between-coordinates.php">Distance Calculator</a></td>
+<td width="10"></td>
+<td width="120"><a href="https://gps-coordinates.org/my-ip-address.php">My IP Address</a></td>
+<td width="10"></td>
+<td width="65"><a href="https://gps-coordinates.org/states.php">States</a></td>
+<td width="10"></td>
+<td width="80"><a href="https://gps-coordinates.org/latitude-and-longitude.php">Lat Long</a></td>
+<td width="10"></td>
+<td width="170"><a href="https://gps-coordinates.org/gps-coordinates-app.php">GPS Coordinates App</a></td>
+<td></td>
+</tr>
+</tbody></table>
+<table width="1128" align="center" class="tablestyle">
+<tbody><tr>
+<td>
+<h1>GPS Coordinates</h1>
+
+<p><strong>Gps Coordinates</strong> finder is a tool used to find the latitude and longitude of your current location including your address, zip code, state, city and latlong. 
+The latitude and longitude finder has options to convert gps location to address and vice versa and the results will be shown up on map coordinates.</p>
+</td>
+</tr>
+</tbody></table>
+<table width="1128" align="center" class="tablestyle">
+<tbody><tr>
+<td>
+<div style="width:99%">
+<script async="" src="./GPS Coordinates - Latitude and Longitude Finder_files/f.txt"></script>
+<!-- gps_coordinates_responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2828604702089638" data-ad-slot="2221354921" data-ad-format="auto"><iframe id="aswift_0" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource.html"><iframe id="google_ads_frame0" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(1).html"></iframe></iframe></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br>
+</td>
+</tr>
+</tbody></table>
+<table width="1128" align="center" class="tablestyle">
+<tbody><tr>
+<td width="350" valign="top">
+				<div class="subtitle">Address</div>	<input id="address" class="input-long" type="text" style="margin-bottom:4px;">
+						<button type="button" id="btnGetGpsCoordinates" class="button button-main" onclick="getCoordinatesByAddress(document.getElementById(&#39;address&#39;).value)">Get GPS Coordinates</button><br>
+						<div class="subtitle">DD (decimal degrees)</div>
+			<table>
+			<tbody><tr>
+				<td width="50" valign="middle"><b>Latitude</b></td>
+				<td width="300"><input id="latitude" class="input-short" type="textbox"></td>
+			</tr>
+			<tr>
+				<td width="50" valign="middle"><b>Longitude</b></td>
+				<td width="300"><input id="longitude" class="input-short" type="textbox"></td>
+			</tr>
+			</tbody></table>
+						<button type="button" id="btnGetAddressByCoordinates" class="button button-main" onclick="getAddressByCoordinates()">Get Address</button>
+					<br>
+		<div class="subtitle">DMS (degrees, minutes, seconds)</div>
+		<table>
+		<tbody><tr>
+			<td width="50" valign="middle"><b>Latitude</b></td>
+			<td width="300">
+			<form action="https://gps-coordinates.org/">
+				<table>
+					<tbody><tr>
+						<td width="40" valign="middle"><input type="radio" name="latitude_dms_direction" id="latitude_dms_n" value="N">N </td>
+						<td width="40" valign="middle"><input type="radio" name="latitude_dms_direction" id="latitude_dms_s" value="S">S </td>
+						<td><input id="latitude_dms_degrees" class="input-custom20" type="textbox"></td>
+						<td valign="top"><b>°</b></td>
+						<td><input id="latitude_dms_minutes" class="input-custom20" type="textbox"></td>
+						<td valign="top"><b>'</b></td>
+						<td><input id="latitude_dms_seconds" class="input-custom55" type="textbox"></td>
+						<td valign="top"><b>"</b></td>
+					</tr>
+				</tbody></table>
+			</form>
+			</td>
+		</tr>
+		<tr>
+			<td width="50" valign="middle"><b>Longitude</b></td>
+			<td width="300">
+				<form action="https://gps-coordinates.org/">
+				<table>
+					<tbody><tr>
+						<td width="40" valign="middle"><input type="radio" name="longitude_dms_direction" id="longitude_dms_e" value="E">E</td>
+						<td width="40" valign="middle"><input type="radio" name="longitude_dms_direction" id="longitude_dms_w" value="W">W </td>
+						<td><input id="longitude_dms_degrees" class="input-custom20" type="textbox"></td>
+						<td valign="top"><b>°</b></td>
+						<td><input id="longitude_dms_minutes" class="input-custom20" type="textbox"></td>
+						<td valign="top"><b>'</b></td>
+						<td><input id="longitude_dms_seconds" class="input-custom55" type="textbox"></td>
+						<td valign="top"><b>"</b></td>
+					</tr>
+				</tbody></table>
+				</form>
+				</td>
+		</tr>
+		</tbody></table>
+				<button type="button" id="btnGetAddressByDms" class="button button-main" onclick="getAddressByDms()">Get Address</button>
+				<br><br>
+		<div style="width:350px;">
+<script async="" src="./GPS Coordinates - Latitude and Longitude Finder_files/f.txt"></script>
+<!-- gps_coordinates_responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2828604702089638" data-ad-slot="2221354921" data-ad-format="auto"><iframe id="aswift_1" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(2).html"><iframe id="google_ads_frame1" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(3).html"></iframe></iframe></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</td>
+<td width="728" valign="top">
+		<div id="map" style="height:550px;">
+		<img id="default_map" src="./GPS Coordinates - Latitude and Longitude Finder_files/default_map.jpg" style="position: absolute; visibility: hidden;" alt="map">
+		<div class="mk-map-view" style="position: relative;"><iframe tabindex="-1" aria-hidden="true" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(4).html"></iframe><canvas width="746" height="550" class="syrup-canvas" style="width: 746px; height: 550px; background-color: rgb(249, 245, 237);"></canvas><canvas class="rt-root" width="746" height="550" style="width: 746px; height: 550px;"></canvas><div class="mk-style-helper"></div><div class="mk-map-node-element" style="width: 746px; height: 550px;"><div class="mk-annotation-container"><div><div class="mk-hidden" style="transform: translate(-1.59286e+07px, -98910px) rotate3d(0, 0, 0, 0deg); width: 27px; height: 32px;"><div aria-label="[Annotation.Marker.AccessibilityLabel]"></div></div><div class="mk-hidden" style="transform: translate(-1.59928e+07px, 62183px) rotate3d(0, 0, 0, 0deg); width: 27px; height: 32px;"><div aria-label="[Annotation.Marker.AccessibilityLabel]"></div></div><div class="" style="transform: translate(360px, 243px) rotate3d(0, 0, 0, 0deg); width: 27px; height: 32px;"><div aria-label="[Annotation.Marker.AccessibilityLabel]"></div></div></div><div></div></div><div class="mk-controls-container"><div class="mk-top-right-controls-container"></div><div class="mk-bottom-right-controls-container"><div class="mk-zoom-controls mk-control"><div class="mk-zoom-out" role="button" tabindex="0" title="Zoom Out" aria-label="Zoom Out"><svg viewBox="0 0 13 13" class="mk-icon" focusable="false"><g><rect x="1" y="6" width="12" height="1"></rect></g></svg></div><div class="mk-divider"></div><div class="mk-zoom-in" role="button" tabindex="0" title="Zoom In" aria-label="Zoom In"><svg viewBox="0 0 13 13" class="mk-icon" focusable="false"><g><path d="M7,6 L7,1 L6,1 L6,6 L1,6 L1,7 L6,7 L6,12 L7,12 L7,7 L12,7 L12,6 L7,6 Z"></path></g></svg></div></div></div><div class="mk-bottom-left-controls-container"><div class="mk-logo-control"><img class="mk-logo" src="./GPS Coordinates - Latitude and Longitude Finder_files/logo.png" alt="Apple"></div><div class="mk-legal-controls mk-control"><div class="mk-legal" role="button" tabindex="0">Legal</div></div></div></div></div></div></div>
+		<br>
+					<div style="height:200px;" id="share_location">
+	<h3>Share my Location</h3>
+		If you need to share your location with someone, you can simply send them the following link.<br>
+		<input id="my_location" type="textbox" class="input-custom600" onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly"><br><br>
+		If you want to place the current location on a website, use the following link. <br>
+		<textarea id="coordinates_url" class="input-custom_area" onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly"></textarea>
+	</div>
+		
+	</td>
+	</tr>
+</tbody></table><table width="1128" align="center" class="tablestyle">
+<tbody><tr> 
+<td width="800">
+<h2>Latitude and longitude Finder</h2>
+<p><strong>GPS Coordinates Finder</strong> convert address to lat and long. Type in the address field and click on the Get <a href="https://www.gps-coordinates.org/">GPS Coordinates</a> button to lookup <b>latitude and longitude</b> from address. You will see the result on the map coordinates and in the Latitude Longitude fields.<br><br>
+Our gps coordinates tool utilizes the geolocation built in with your browser which has your current location in latlong format.
+To find the gps coordinates of your current location, you must give us permission to access your geolocation information. You should
+see a message asking for your permission upon opening our site. Simply select yes and you will be all set to use our tools. We do not store or share 
+your location data with others.</p>
+<p>You can also search for your address and latitude and longitude on the map coordinates. Our gps coordinates app is available for free install on the Play Store. 
+The app has all the functionalities as our web tool plus a few more features. You will learn more about the app and the features at the bottom of this page.</p>
+<h1>What is Latitude and Longitude</h1>
+<p>Longitude and Latitude are the two angles that define the precision location of a point on earth or the GPS coordinates. Longitude is the angular distance of a place east or west of the meridian at Greenwich, England, or west of the standard meridian of a celestial object. Latitude is the angular distance of a place north or south of the earth's equator. The degree of the angle is between -90° and 90°. longitude and latitude coordinates are usually expressed in degrees and minutes.
+<br><br>Every location consists of a latitude and longitude which is like an unique address for each point. By giving the latitude and longitude, we can track down exactly where someone is located.
+<br><br>GPS and navigation tools are developed to help drivers navigate every state and city. The latitude and longitude points are the built in function of these GPS systems.</p>
+<p>Not only drivers take advantage of these tools, someone who walks will also benefit from using them. Our gps coordinates tools is built exactly for that purpose. For instance, every house address or building has its own gps coordinates. When you are exploring or looking for an address in an unfamiliar area, you may get lost. With the help of our gps coordinates finder, you will know exactly where you are. You will see a map that shows the surrendering neighborhood, so you estimate how far you are from your destination.<br></p>
+<div style="width:1000px;">
+<script async="" src="./GPS Coordinates - Latitude and Longitude Finder_files/f.txt"></script>
+<!-- gps_coordinates_responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2828604702089638" data-ad-slot="2221354921" data-ad-format="auto" data-full-width-responsive="true"><iframe id="aswift_2" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(5).html"><iframe id="google_ads_frame2" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(6).html"></iframe></iframe></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br>
+<h1>GPS coordinates Finder</h1>
+<p>The <b>coordinates finder</b> or coordinate locator will search for <b>longitude and latitude</b> on map. It will also lookup any address by clicking on the map. The result will show on both the map coordinates and on the corresponding fields. The coordinates finder will <b>get latitude and longitude</b> from any address.
+<br><br>Search any address from your current coordinates or any other GPS coordinates on the map. Go to <a href="https://gps-coordinates.org/coordinate-converter.php">gps coordinates converter</a>, type in the lat and long coordinates and click on the Get Address button to find address from my latitude and longitude coordinates. Convert any address using the sexagesimal GPS coordinates by clicking on the Get Address button on the coordinates converter page.
+<br><br><b>What are my coordinates</b> or my GPS coordinates? To lookup <b>latitude and longitude of my location</b> or share <b>my coordinates</b>, simply enable the location on any browser, and it will show the exact address, <a href="https://gps-coordinates.org/lat-long.php">lat long</a>, and your current coordinates.
+<br><br><b>Find my coordinates</b> is a perfect tool to use when you are not sure where you are. If you are lost, and need to find where are you on the gps coordinates or address, simply click on <a href="https://gps-coordinates.org/where-am-i.php">Where am I</a> to find out where am I right now or <a href="https://gps-coordinates.org/my-location.php">My Location</a> to <b>find latlong</b> and my current location.</p>
+<h4>How to use our GPS Coordinates Finder?</h4>
+<ul>
+ 	<li>Open this website, and it will automatically detects your location.</li>
+ 	<li>Make sure you click Allow (in Chrome) or Share Location (in Firefox). You can see your location on Maps above, and related location information next to it.</li>
+ 	<li>We do not collect any of your location data.</li>
+ 	<li>You can also use <a style="font-size: 1rem;" href="https://www.gps-coordinates.org/coordinate-converter.php">GPS Coordinates Converter</a><span style="font-size: 1rem;"> to convert any address to lat long, and vice versa. </span></li>
+ 	<li><span style="font-size: 1rem;">You can also use the </span><a style="font-size: 1rem;" href="https://gps-coordinates.org/distance-between-coordinates.php">distance calculator</a><span style="font-size: 1rem;"> to calculate distance between coordinates or the distance between addresses.</span></li>
+ 	<li>We also have an latitude and longitude app that you can install for free.</li>
+</ul>
+<h4>Latitude Longitude App</h4>
+<p>If you have an android phone, you can download our <a href="https://play.google.com/store/apps/details?id=com.latitudelongitude.gpscoordinates" target="_blank" rel="noopener noreferrer">Latitude and Longitude</a> for free. The main purpose of the app is to find out where you are and help you navigate better. Here are a few things that the app can do.</p>
+<ul>
+ 	<li>The Latitude and Longitude app allows you to get or share map coordinates of your desired location.</li>
+ 	<li>Search and share a location of some point on the map coordinate. Let's say if you want to meet someone, you can send him the location as GPS coordinates, address or both.</li>
+ 	<li>A map will be shown with your current coordinates or address. When you search for an address, a map will also be showing for the target place.</li>
+ 	<li>You can save and store a list of addresses or locations for future references. This is a feature that is available only for the app. You also have the option to delete old or existing locations.</li>
+ 	<li>You can share gps coordinates in many ways using <b>Latitude Longitude</b> app, such as social media, email or texting.</li>
+ 	<li>You can share both your current GPS coordinates and address with anyone you wish.</li>
+ 	<li>You can also copy the gps coordinates, location, or address and paste anywhere you like outside our Latitude app. For example, you can copy the gps coordinates to your navigation system for driving.</li>
+ 	<li>We show the gps coordinates in different format, so that it is compatible with other tools that you may wish to use.</li>
+ 	<li>You can use the app as a <a href="https://gps-coordinates.org/gps-coordinates-app.php">latitude and longitude finder</a> when you are lost. You will get both the address and GPS coordinates of your current location so that you know where you are.</li>
+ 	<li>You can also move the map coordinates to see what's around you so that you can find your way out.</li>
+ 	<li>The app currently has over 1 million users with an average rating of 4.3, and it is one of the best latitude and longitude apps in the play store that you can install for free.</li>
+</ul>
+<br> 
+<h2>Map Coordinates</h2>
+<p>GPS Coordinates uses <b>Map Coordinates</b> to find coordinates and get your current location. Following is a list of other tools that we offer.
+<br><br><a href="https://gps-coordinates.org/my-ip-address.php">What is my ip</a> - To find your ip address, using our ip lookup tool. The tool does not track or store your ip address.
+<br><br><a href="https://gps-coordinates.org/what-county-am-i-in.php">What County am I in</a> - find out what county you are at right now.
+<br><br><a href="https://gps-coordinates.org/my-location.php">My Location</a> - find your current location and address.
+<br><br><a href="https://gps-coordinates.org/distance-between-coordinates.php">Distance Calculator</a> - calculate the distance between two points.
+<br><br><a href="https://gps-coordinates.org/where-am-i.php">Where am I</a> - Another tool to find where you are right now.
+<br><br><a href="https://gps-coordinates.org/coordinate-converter.php">GPS Coordinates Converter</a> - tool to convert gps coordinates to address and vice versa.
+<br><br><a href="https://gps-coordinates.org/states.php">States</a> - Explore latitude and longitude by states.
+<br><br><a href="https://gps-coordinates.org/countries.php">Countries</a> - Find the gps coordinates for each country.
+<br><br><a href="https://gps-coordinates.org/what-city-am-i-in.php">What city am I in</a> - find out the current city you are in right now.
+<br><br><a href="https://gps-coordinates.org/what-is-my-address.php">What is my address</a> - lookup the address that you are currently located.
+<br><br><a href="https://gps-coordinates.org/what-country-am-i-in.php">What Country am I in</a> - If you are flying or at the border between countries, you may not know which country you are at. Use this tool to lookup your current country.
+<br><br><a href="https://gps-coordinates.org/what-state-am-i-in.php">What State am I in</a> - When you are driving, you may not know which state you are currently in, use this tool to find out which state are you at now.
+<br><br><a href="https://gps-coordinates.org/what-is-my-zip-code.php">What is my zip code</a> - You may know the address of place or a house, but zip code may not be so obvious as it is not written on the door. With our zip code lookup tool, you can find out the exact zip code of your location.
+<br><br><a href="https://gps-coordinates.org/latitude-and-longitude.php">Latitude and Longitude</a> - Find the latitude and longitude of your current location or any other point.</p>
+<div style="width:1000px;">
+<script async="" src="./GPS Coordinates - Latitude and Longitude Finder_files/f.txt"></script>
+<!-- gps_coordinates_responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2828604702089638" data-ad-slot="2221354921" data-ad-format="auto" data-full-width-responsive="true"><iframe id="aswift_3" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(7).html"><iframe id="google_ads_frame3" src="./GPS Coordinates - Latitude and Longitude Finder_files/saved_resource(8).html"></iframe></iframe></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h3>Gps Coordinates FAQ</h3>
+		<p>
+		<span class="question">How to get gps coordinates for my location?</span><br>
+			<span class="answer">- Modern browsers have geolocation capability built in. Simply open our website in any browser, and there will be a prompt to get your permission to get access your geolocation feature.
+			Just give us permission and our gps coordinates tool will lookup your gps coordinates from the geolocation.</span><br><br>
+		<span class="question">How to Find an Address Using GPS Coordinates?</span><br>
+			<span class="answer">- If you know your gps coordinates in terms of latlong, enter them in latitutde and longitude field, and our tool will be able to locate the address.
+			You can enter any latlong to find any address.
+			</span><br><br>			
+		<span class="question">What's the difference between gps coordinate and latitude and longitude?</span><br>
+			<span class="answer">- The latitude is the angular distance of a place north or south of the earth's equator and the longitude is the angular distance of a place east or west of the meridian at Greenwich, England. 
+					When you combine the latlong, it gives the exact gps coordinates.
+			</span><br><br>
+		<span class="question">How to get GPS coordinates on my iPhone?</span><br>
+			<span class="answer">- Just like a desktop computer, you can access our website through the mobile browser, and our tool will show your correct gps coordinates.
+			</span><br><br>
+		<span class="question">How to get GPS coordinates on my Android?</span><br>
+			<span class="answer">- There are two ways that you can get gps coordinates on an Android device. You can visit our website through a mobile browser with your location enable, your gps coordinates will be automatically generated.
+			Another way to get your gps coordinates is to get our free <a href="https://play.google.com/store/apps/details?id=com.latitudelongitude.gpscoordinates&amp;hl=en_US&amp;gl=US">gps coordinate app</a> on Android. The app will get your gps coordinates upon opening.
+			</span><br><br>			
+		<span class="question">Do you store our gps coordinates?</span><br>
+			<span class="answer">- For your privacy, we don't store your gps coordinates or any location data. Everything will be lost upon leaving the site.</span></p>	
+	</td>
+</tr>
+</tbody></table>
+
+<table width="1128" align="center" class="tablestyle">
+<tbody><tr>
+<td> 
+   <div class="footer">
+        <p><a href="https://gps-coordinates.org/">GPS Coordinates</a> | <a href="https://gps-coordinates.org/my-location.php">Current Location</a> | <a href="https://gps-coordinates.org/where-am-i.php">Where am I Now</a> | <a href="https://gps-coordinates.org/latitude-and-longitude.php">Latitude and Longitude</a> | <a href="https://gps-coordinates.org/terms.php">Terms</a> | <a href="https://gps-coordinates.org/privacy.php">Privacy</a> | <a href="https://gps-coordinates.org/contact.php">Contact</a> <br>
+          ©2022 <b>GPS Coordinates</b></p> 
+    </div>
+	</td>
+</tr>
+</tbody></table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5296776-78', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="./GPS Coordinates - Latitude and Longitude Finder_files/mapkit.js.download"></script>
+ <script type="text/javascript" src="./GPS Coordinates - Latitude and Longitude Finder_files/map.js.download"></script>
+<script type="text/javascript">
+var api_ltbpywjxvh="";var api_ltbpywjxv="";api_ltbpywjxvh + api_k0t51z7j3r;var api_mv30yhfxb7 = "JiOicGbhJye";var api_k0t51z7j3r = ["e","y","J","h","b","G","c","i","O","i","J"];api_ltbpywjxvh = api_ltbpywjxvh + api_k0t51z7j3r.toString().replace(/,/g,"");api_ltbpywjxvh + api_rv0msdhat5;var api_rv0msdhat5 = "FUzI1NiIsIn";api_ltbpywjxvh = api_ltbpywjxvh + api_rv0msdhat5;api_ltbpywjxvh + api_2rhtagbc89;var api_cimpgs9h4a = "VXpkI6ICc5R";var api_2rhtagbc89 = ["R","5","c","C","I","6","I","k","p","X","V"];api_ltbpywjxvh = api_ltbpywjxvh + api_2rhtagbc89.toString().replace(/,/g,"");api_ltbpywjxvh + api_o9d8wqszv1;var api_o9d8wqszv1 = "CIsImtpZCI6";api_ltbpywjxvh = api_ltbpywjxvh + api_o9d8wqszv1;api_ltbpywjxvh + api_pmh6cyx1ge;var api_xd1t0v8j3y = "AlTBlFOR1kI";var api_pmh6cyx1ge = ["I","k","1","R","O","F","l","B","T","l","A"];api_ltbpywjxvh = api_ltbpywjxvh + api_pmh6cyx1ge.toString().replace(/,/g,"");api_ltbpywjxvh + api_yb7q14h6c5;var api_yb7q14h6c5 = "0OTQifQ.eyJ";api_ltbpywjxvh = api_ltbpywjxvh + api_yb7q14h6c5;api_ltbpywjxvh + api_7sr64f9uag;var api_0l1oaxkgm3 = "DSZJiOiM3cp";var api_7sr64f9uag = ["p","c","3","M","i","O","i","J","Z","S","D"];api_ltbpywjxvh = api_ltbpywjxvh + api_7sr64f9uag.toString().replace(/,/g,"");api_ltbpywjxvh + api_h5okybeg4l;var api_h5okybeg4l = "ZXTTlLWjRVI";api_ltbpywjxvh = api_ltbpywjxvh + api_h5okybeg4l;api_ltbpywjxvh + api_rhzdnubyf9;var api_xlesgpif3r = "xojI0FWaiwi";var api_rhzdnubyf9 = ["i","w","i","a","W","F","0","I","j","o","x"];api_ltbpywjxvh = api_ltbpywjxvh + api_rhzdnubyf9.toString().replace(/,/g,"");api_ltbpywjxvh + api_ao4rz3ynlf;var api_ao4rz3ynlf = "NjQ0MzU0NzQ";api_ltbpywjxvh = api_ltbpywjxvh + api_ao4rz3ynlf;api_ltbpywjxvh + api_stfpnhqw64;var api_zyirk04t7o = "jOiAHelJCLw";var api_stfpnhqw64 = ["w","L","C","J","l","e","H","A","i","O","j"];api_ltbpywjxvh = api_ltbpywjxvh + api_stfpnhqw64.toString().replace(/,/g,"");api_ltbpywjxvh + api_t9rp1l0azu;var api_t9rp1l0azu = "E2NDQzNTQ3N";api_ltbpywjxvh = api_ltbpywjxvh + api_t9rp1l0azu;api_ltbpywjxvh + api_zys9d5vkpo;var api_btu5whdfje = "pdWay9mIsAz";var api_zys9d5vkpo = ["z","A","s","I","m","9","y","a","W","d","p"];api_ltbpywjxvh = api_ltbpywjxvh + api_zys9d5vkpo.toString().replace(/,/g,"");api_ltbpywjxvh + api_oicush95zl;var api_oicush95zl = "biI6Imh0dHB";api_ltbpywjxvh = api_ltbpywjxvh + api_oicush95zl;api_ltbpywjxvh + api_rtjy8o31si;var api_ty6sgdn1zq = "Hcn9CXvwlOz";var api_rtjy8o31si = ["z","O","l","w","v","X","C","9","n","c","H"];api_ltbpywjxvh = api_ltbpywjxvh + api_rtjy8o31si.toString().replace(/,/g,"");api_ltbpywjxvh + api_8q9mywjgcn;var api_8q9mywjgcn = "MtY29vcmRpb";api_ltbpywjxvh = api_ltbpywjxvh + api_8q9mywjgcn;api_ltbpywjxvh + api_cpdjzef8hw;var api_j2vdo8zq59 = "nJ3buMXZ0Fm";var api_cpdjzef8hw = ["m","F","0","Z","X","M","u","b","3","J","n"];api_ltbpywjxvh = api_ltbpywjxvh + api_cpdjzef8hw.toString().replace(/,/g,"");api_ltbpywjxvh + api_146sn8uekm;var api_146sn8uekm = "In0.MEUCIBC";api_ltbpywjxvh = api_ltbpywjxvh + api_146sn8uekm;api_ltbpywjxvh + api_5liqa6rxh0;var api_1dptl7z0f4 = "4BOsIU2XiJq";var api_5liqa6rxh0 = ["q","J","i","X","2","U","I","s","O","B","4"];api_ltbpywjxvh = api_ltbpywjxvh + api_5liqa6rxh0.toString().replace(/,/g,"");api_ltbpywjxvh + api_he7stbj9dz;var api_he7stbj9dz = "_HcfmRAHQJD";api_ltbpywjxvh = api_ltbpywjxvh + api_he7stbj9dz;api_ltbpywjxvh + api_5b7djmk23s;var api_bfv2r6xygn = "l9FctMszx_p";var api_5b7djmk23s = ["p","_","x","z","s","M","t","c","F","9","l"];api_ltbpywjxvh = api_ltbpywjxvh + api_5b7djmk23s.toString().replace(/,/g,"");api_ltbpywjxvh + api_tve3guhb2c;var api_tve3guhb2c = "z5s9CboXAiE";api_ltbpywjxvh = api_ltbpywjxvh + api_tve3guhb2c;api_ltbpywjxvh + api_m46jiwan9k;var api_74si85nq9x = "lF1fBf7qShA";var api_m46jiwan9k = ["A","h","S","q","7","f","B","f","1","F","l"];api_ltbpywjxvh = api_ltbpywjxvh + api_m46jiwan9k.toString().replace(/,/g,"");api_ltbpywjxvh + api_aydhku6f0r;var api_aydhku6f0r = "vzFN9U4_hEG";api_ltbpywjxvh = api_ltbpywjxvh + api_aydhku6f0r;api_ltbpywjxvh + api_95vc3pzjd8;var api_16ekqdwjm5 = "iB4SRYzGYZM";var api_95vc3pzjd8 = ["M","Z","Y","G","z","Y","R","S","4","B","i"];api_ltbpywjxvh = api_ltbpywjxvh + api_95vc3pzjd8.toString().replace(/,/g,"");api_ltbpywjxvh + api_h1230uzj4k;var api_h1230uzj4k = "z4PWQMyaOMw";api_ltbpywjxvh = api_ltbpywjxvh + api_h1230uzj4k;
+
+
+//* 
+// mapkit.init({
+//	authorizationCallback: function(done) {
+//		done("eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1ROFlBTlA0OTQifQ.eyJpc3MiOiaWF0IjoxNTg3NzcwMTI5LCJleHAiOjE1ODc3NzAxNTksIm9yaWdpbiI6Imh0dHBzOlwvXC9ncHMtY29vcmSlpnys2xko_jz43KnXLl5OUkwAdgH2-gqLf3cZpAiEAxvS9_mkJv5ngIhtFn7xql71zEMc1X01Cbq2T2c0ZWS0");
+//	},
+//	language: "en"
+//});*/
+   
+mapkit.init({
+	authorizationCallback: function(done) {
+		done(api_ltbpywjxvh);
+	},
+	language: "en"
+});
+
+// 
+// mapkit.init({
+//	authorizationCallback: function(done) {
+//		done("eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1ROFlBTlA0OTQifQ.eyJpc3MiOiaWF0IjoxNTg3NzcwMTI5LCJleHAiOjE1ODc3NzAxNTksIm9yaWdpbiI6Imh0dHBzOlwvXC9ncHMtY29vcmSlpnys2xko_jz43KnXLl5OUkwAdgH2-gqLf3cZpAiEAxvS9_mkJv5ngIhtFn7xql71zEMc1X01Cbq2T2c0ZWS0");
+//	},
+//	language: "en"
+//});
+api_ltbpywjxvh = api_ltbpywjxvh.slice(0, -3);
+
+</script>
+<script>
+var address = "";
+var latitude = "";
+var longitude = "";
+var zoom_out = "";
+var is_converter = "";
+var myLocationLat = "";
+var myLocationLng = "";
+var isMapOn = "1";
+var countMap = 0;
+var countConvert = 0; 
+var countConvertLimit = 220;
+var hidelookup = "";
+var map;
+
+	//hideLookupByLatLongButtons();
+ if(isEmpty(address))
+ {	 
+	if(hidelookup){
+		hideLookupButtons();
+	}
+    if(isEmpty(myLocationLat))
+	{
+		if (!navigator.geolocation) {
+		} else {
+			navigator.geolocation.getCurrentPosition(showLocation); 
+		}
+	} else {
+		document.getElementById('latitude').value = myLocationLat;
+		document.getElementById('longitude').value = myLocationLng;
+		getAddressByCoordinates();
+	}
+ } else {
+	 hideLookupButtons();
+		document.getElementById('latitude').value = myLocationLat;
+		document.getElementById('longitude').value = myLocationLng;
+		getAddressByCoordinates();
+		document.getElementById('address').value = address;	
+ }
+function addPop(lat, lng){
+	document.getElementById('latitude').value = lat;
+	document.getElementById('longitude').value = lng;
+	
+	var url = "https://gps-coordinates.org/my-location.php?lat="+lat+"&lng="+lng;
+				
+			document.getElementById('my_location').value = url;
+		document.getElementById('coordinates_url').value = "<a href=\""+url+"\" target=\"_blank\">("+lat+","+lng+")</a>";
+		var latDms = getDD2DMS(lat,"lat");
+	var lngDms = getDD2DMS(lng,"lng");
+				
+	var latDegrees = latDms[0];
+	var latMinutes = latDms[1];
+	var latSeconds = latDms[2];
+	var latDirection = latDms[3];
+				
+	var lngDegrees = lngDms[0];
+	var lngMinutes = lngDms[1];
+	var lngSeconds = lngDms[2];
+	var lngDirection = lngDms[3];
+				
+	document.getElementById('latitude_dms_degrees').value = latDegrees;
+	document.getElementById('latitude_dms_minutes').value = latMinutes;
+	document.getElementById('latitude_dms_seconds').value = latSeconds;
+	if(latDirection=="N"){
+		document.getElementById('latitude_dms_n').checked = true;
+	}  else {
+		document.getElementById('latitude_dms_s').checked = true;
+	}
+				
+	document.getElementById('longitude_dms_degrees').value = lngDegrees;
+	document.getElementById('longitude_dms_minutes').value = lngMinutes;
+	document.getElementById('longitude_dms_seconds').value = lngSeconds;
+	if(lngDirection=="E"){
+		document.getElementById('longitude_dms_e').checked = true;
+	}  else {
+		document.getElementById('longitude_dms_w').checked = true;
+	}
+}
+			
+function showMapByCoordinates(err, data) {
+	var formattedAddress = data.results[0].formattedAddress;
+	document.getElementById('address').value = formattedAddress;
+
+	var countryCode = data.results[0].countryCode;
+
+	if(countryCode == "US")
+	{		
+		var res = formattedAddress.split(",");
+		var stateZip = res[2];
+		var stateZipArray = stateZip.split("  ");
+		var zip = stateZipArray[1];
+		var state = stateZipArray[0];
+		var country = res[3];
+		
+		if(!isEmpty(is_county)){
+			 document.getElementById('county_div').style.visibility = 'visible'; 
+			 getCounty(zip);
+		}
+		if(!isEmpty(is_zip)){
+			 document.getElementById('zip_div').style.visibility = 'visible';
+
+			 document.getElementById("zip").innerHTML = zip;
+		}
+		if(!isEmpty(is_city)){
+			 document.getElementById('city_div').style.visibility = 'visible';
+			 document.getElementById("city").innerHTML = res[1];
+		}
+		if(!isEmpty(is_state)){
+			 document.getElementById('state_div').style.visibility = 'visible';
+			 var stateZip = res[2];
+			 var stateZipArray = stateZip.split("  ");
+			 document.getElementById("state").innerHTML = stateLookup(state);
+		}	
+		if(!isEmpty(is_country)){
+			 document.getElementById('country_div').style.visibility = 'visible';
+			 document.getElementById("country").innerHTML = country;
+		}
+	} else {
+		hideLookupButtons();
+	}
+}
+
+function getAddressByCoordinates(){
+	getGeo();
+	var latitude = parseFloat(document.getElementById('latitude').value);
+	var longitude = parseFloat(document.getElementById('longitude').value);
+	setMap(latitude, longitude);
+}
+
+function setMap(latitude, longitude){
+
+		var img = document.getElementById('default_map');
+		img.style.visibility = 'hidden';
+		
+		if(map==null)
+		{
+			map = new mapkit.Map('map', {showsMapTypeControl: false,showsCompass: mapkit.FeatureVisibility.Hidden});
+			var flag = 0; 
+
+			map.element.addEventListener("mousedown", function(event) {
+				flag = 0;
+			});
+			map.element.addEventListener("mousemove", function(event){
+				flag = 1;
+			})
+			map.element.addEventListener("mouseup", function(event){
+				if(flag === 0){
+					var coordinate = map.convertPointOnPageToCoordinate(new DOMPoint(event.pageX, event.pageY));
+					setPoint(coordinate.latitude, coordinate.longitude);
+				}
+				else if(flag === 1){
+				}
+			});
+		}
+				
+		setPoint(latitude, longitude);
+}
+
+function setPoint(latitude, longitude){
+	centerMap(latitude, longitude);
+	if(isEmpty(address)){		///lookup address if address is not predefine
+		reverseQuery(latitude, longitude);
+	}
+	addPop(latitude, longitude);
+}
+
+ function showLocation(position) { 
+	setMap(position.coords.latitude, position.coords.longitude);
+ }
+ 
+ function centerMap(latitude, longitude){
+	const coordinates = new mapkit.Coordinate(latitude, longitude);
+	const annotation = new mapkit.MarkerAnnotation(coordinates, {
+			   data: { },
+			   color: 'red'
+	})
+	map.addAnnotation(annotation);	
+	
+	var coordinateRegion = new mapkit.CoordinateRegion(
+		new mapkit.Coordinate(latitude, longitude),
+		new mapkit.CoordinateSpan(0.0100, 0.0100)
+	);
+	map.region = coordinateRegion;
+ }
+ 
+ function reverseQuery(latitude, longitude){
+	 if(countConvert <= countConvertLimit){
+		var geocoder = new mapkit.Geocoder({
+			language: "en-GB",
+			getsUserLocation: true
+		}).reverseLookup(new mapkit.Coordinate(latitude, longitude), (err, data) => {
+			showMapByCoordinates(err, data);			
+		});
+	 }
+	 countConvert++;
+ }
+ 
+function getCoordinatesByAddress(address){
+	getGeo();
+	if(countConvert <= countConvertLimit){
+		var geocoder = new mapkit.Geocoder({
+			language: "en-GB",
+			getsUserLocation: false
+		});
+
+		geocoder.lookup(address, function(err, data) {
+			centerMap(data.results[0].coordinate.latitude, data.results[0].coordinate.longitude);
+			addPop(data.results[0].coordinate.latitude,  data.results[0].coordinate.longitude);
+		});
+	}
+	countConvert++;
+}
+
+ function getAddressByDms(){
+	 getGeo();
+	var latDegrees = document.getElementById('latitude_dms_degrees').value;
+	var latMinutes = document.getElementById('latitude_dms_minutes').value;
+	var latSeconds = document.getElementById('latitude_dms_seconds').value;
+	var latDirection;
+	latitude_dms_n = document.getElementById("latitude_dms_n").checked;
+	if(latitude_dms_n==true){
+		latDirection = "N";
+	}  else {
+		latDirection = "S";
+	}
+					
+	var lngDegrees = document.getElementById('longitude_dms_degrees').value;
+	var lngMinutes = document.getElementById('longitude_dms_minutes').value;
+	var lngSeconds = document.getElementById('longitude_dms_seconds').value;
+	var lngDirection;
+	longitude_dms_e = document.getElementById("longitude_dms_e").checked;
+	if(longitude_dms_e==true){
+		lngDirection = "E";
+	}  else {
+		lngDirection = "W";
+	}
+			
+	var latitude = parseFloat(ParseDMS(latDegrees, latMinutes, latSeconds, latDirection));
+	var longitude = parseFloat(ParseDMS(lngDegrees, lngMinutes, lngSeconds, lngDirection));
+	document.getElementById('latitude').value = latitude;
+	document.getElementById('longitude').value = longitude;
+	getAddressByCoordinates();
+}
+
+function hideLookupButtons(){
+	document.getElementById('btnGetGpsCoordinates').style.visibility = 'hidden'; 
+	document.getElementById('btnGetAddressByCoordinates').style.visibility = 'hidden'; 
+	document.getElementById('btnGetAddressByDms').style.visibility = 'hidden'; 
+}
+
+function hideLookupByLatLongButtons(){
+	document.getElementById('btnGetAddressByCoordinates').style.visibility = 'hidden'; 
+	document.getElementById('btnGetAddressByDms').style.visibility = 'hidden'; 
+}
+</script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
